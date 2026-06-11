@@ -1,9 +1,9 @@
 {
   "df": "df-mathematik-der-macht-writer",
-  "ts": "2026-06-10T11:12:12.075724+00:00",
+  "ts": "2026-06-11T01:12:40.823424+00:00",
   "maturity": "TESTED",
   "maturity_level": 4,
   "evidence_grade": 4,
-  "wargame_verdict": null,
+  "wargame_verdict": "CONDITIONAL",
   "crux": "[CRUX-MK]"
 }
