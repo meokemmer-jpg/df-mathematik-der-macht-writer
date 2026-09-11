@@ -9,7 +9,7 @@ phronesis_required: false
 
 # === Default-Action (per ausreden-schutz.md Schicht 2, Welle-47 Migration Batch-1) ===
 default_action:
-  description: "Chapter-Generation fuer 'Mathematik der Macht' (16 Kapitel, ~9000 Worte/Kapitel, Academic-with-Examples Style, Hamilton-Optimierung in Politik+Wirtschaft) + Outline-Manager + Style-Guide-Validation"
+  description: "Chapter-Generation fuer 'Mathematik der Macht' (16 Kapitel, ~9000 Worte/Kapitel, Academic-with-Examples Style, Hamilton-Optimierung in Politik+Wirtschaft) + Outline-Manager + Style-Guide-Validation. HINWEIS: 'Mathematik der Macht' ist Arbeitstitel — Umbenennung beschlossen (Martin 2026-09-10, Frage 29=A); Chapter-Generation laeuft weiter, aber KEINE ISBN-Anmeldung und KEIN Satz unter diesem Titel."
   rho_per_run_eur: 30
   rho_validation_source: unvalidated
   block_gates:
@@ -80,6 +80,10 @@ env_vars:
     required_when: "DF_BOOK_REAL_ENABLED=true"
 book_metadata:
   title: "Mathematik der Macht"
+  title_status: arbeitstitel_umbenennung_beschlossen
+  title_decision_source: branch-hub/decisions/DC-MARTIN-ANTWORTEN-52-FRAGEN-2026-09-10.md (Frage 29 = A)
+  title_new: ""  # OFFEN — Martin-Phronesis
+  publication_blocked: true  # keine ISBN-Anmeldung, keine VLB-Registrierung, kein Satz unter dem alten Titel
   subtitle: "Hamilton-Optimierung in Politik+Wirtschaft"
   chapters_count: 16
   style_guide: academic_with_examples
